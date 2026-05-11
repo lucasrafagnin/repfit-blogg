@@ -1,8 +1,9 @@
-// import path from 'node:path'
-// import { fileURLToPath } from 'node:url'
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  basePath: '/blog',
 
-export default {
   staticPageGenerationTimeout: 300,
+
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: 'www.notion.so' },
@@ -19,3 +20,5 @@ export default {
 
   transpilePackages: ['react-tweet']
 }
+
+export default nextConfig
