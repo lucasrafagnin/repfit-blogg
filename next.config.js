@@ -17,6 +17,5 @@ export default {
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;"
   },
 
-  transpilePackages: ['react-tweet'],
-  basePath: '/blog'
+  transpilePackages: ['react-tweet']
 }
