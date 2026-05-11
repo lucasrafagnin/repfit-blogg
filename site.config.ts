@@ -11,15 +11,14 @@ export default siteConfig({
   // basic site info (required)
   name: 'RepFit Blog',
   domain: 'repfit.io',
-  author: 'Lucas Rafagnin',
+  author: 'RepFit',
 
   // open graph metadata (optional)
   description: 'A maior plataforma para personal trainers no Brasil',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  //github: '#',
+  //linkedin: '#',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
