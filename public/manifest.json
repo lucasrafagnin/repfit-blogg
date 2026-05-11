@@ -1,24 +1,32 @@
 {
-  "name": "Next.js Notion Starter Kit",
-  "short_name": "Starter Kit",
+  "name": "RepFit - Blog",
+  "short_name": "RepFit - Blog",
   "icons": [
     {
-      "src": "/favicon.png",
-      "type": "image/png",
-      "sizes": "32x32"
+      "src": "Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
     },
     {
-      "src": "/favicon-128x128.png",
-      "type": "image/png",
-      "sizes": "128x128"
+      "src": "Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     },
     {
-      "src": "/favicon-192x192.png",
+      "src": "Icon-maskable-192.png",
+      "sizes": "192x192",
       "type": "image/png",
-      "sizes": "192x192"
+      "purpose": "maskable"
+    },
+    {
+      "src": "Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
-  "theme_color": "#000000",
-  "background_color": "#000000",
+  "background_color": "#2563EB",
+  "theme_color": "#2563EB",
+  "description": "O blog da plataforma definitiva para Personal Trainers organizarem suas consultorias em um só lugar",
   "display": "standalone"
 }
