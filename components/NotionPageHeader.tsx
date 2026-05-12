@@ -1,9 +1,9 @@
 import type * as types from 'notion-types'
 import cs from 'classnames'
 import * as React from 'react'
-import { Breadcrumbs, Header, Search, useNotionContext } from 'react-notion-x'
+import { Breadcrumbs, Header, useNotionContext } from 'react-notion-x'
 
-import { isSearchEnabled, navigationLinks, navigationStyle } from '@/lib/config'
+import { navigationLinks, navigationStyle } from '@/lib/config'
 import { MoonIcon } from '@/lib/icons/moon'
 import { SunIcon } from '@/lib/icons/sun'
 import { useDarkMode } from '@/lib/use-dark-mode'
@@ -81,7 +81,14 @@ export function NotionPageHeader({
 
           <ToggleThemeButton />
 
-          {isSearchEnabled && <Search block={block} title={null} />}
+          <a
+            href='https://repfit.io'
+            target='_blank'
+            rel='noopener noreferrer'
+            className={styles.ctaButton}
+          >
+            Conheça o RepFit
+          </a>
         </div>
       </div>
     </header>

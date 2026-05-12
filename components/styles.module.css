@@ -221,3 +221,21 @@
 .hidden {
   visibility: hidden;
 }
+
+.ctaButton {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 16px;
+  background-color: #2563eb;
+  color: #fff !important;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 150ms ease-out;
+}
+
+.ctaButton:hover {
+  background-color: #1d4ed8;
+}
