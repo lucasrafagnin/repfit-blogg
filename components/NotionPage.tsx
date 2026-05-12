@@ -320,7 +320,7 @@ export function NotionPage({
         defaultPageCoverPosition={config.defaultPageCoverPosition}
         mapPageUrl={siteMapPageUrl}
         mapImageUrl={mapImageUrl}
-        searchNotion={config.isSearchEnabled ? searchNotion : undefined}
+        searchNotion={undefined}
         pageAside={pageAside}
         footer={<Footer />}
       />
