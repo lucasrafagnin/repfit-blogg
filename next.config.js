@@ -4,11 +4,14 @@ const nextConfig = {
 
   staticPageGenerationTimeout: 300,
 
+  trailingSlash: false,
+
   async redirects() {
     return [
       {
         source: '/blog/',
         destination: '/blog',
+        basePath: false,
         permanent: true,
       },
     ]

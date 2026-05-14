@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'RepFit Blog',
-  domain: 'repfit.io',
+  domain: 'www.repfit.io',
   author: 'RepFit',
 
   // open graph metadata (optional)
