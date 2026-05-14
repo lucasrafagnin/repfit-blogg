@@ -4,6 +4,15 @@ const nextConfig = {
 
   staticPageGenerationTimeout: 300,
 
+  async redirects() {
+    return [
+      {
+        source: '/blog/',
+        destination: '/blog',
+        permanent: true,
+      },
+    ]
+  },
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: 'www.notion.so' },
